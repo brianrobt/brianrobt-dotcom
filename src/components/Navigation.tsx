@@ -40,7 +40,7 @@ export default function Navigation() {
           href="#"
           className="text-xl font-bold tracking-tight hover:text-[var(--accent)] transition-colors"
         >
-          Portfolio
+          Brian Thompson
         </a>
 
         {/* Desktop Navigation */}
