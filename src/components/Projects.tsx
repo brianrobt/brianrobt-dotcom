@@ -19,7 +19,7 @@ const featuredProjects = [
       "A modern, responsive business website built for a client. Features a clean design, optimized performance, SEO best practices, and a custom CMS for easy content management.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     github: "",
-    live: "",
+    live: "https://stirupespresso.com",
   },
   {
     title: "MLOps Pipeline Platform",
@@ -37,19 +37,13 @@ const otherProjects = [
     description: "A CLI tool to check if newer versions are available for AUR packages hosted on GitHub. Features PKGBUILD parsing, variable substitution, and dual endpoint support for releases and tags.",
     tech: ["Go", "GitHub API"],
     github: "https://github.com/brianrobt/aurvt",
+    live: "",
   },
   {
     title: "AUR PKGBUILDs",
     description: "A collection of 20+ PKGBUILDs for packages I maintain in the Arch User Repository. Includes automated builds with Docker and GitHub Actions for continuous AUR updates.",
     tech: ["Shell", "Docker", "GitHub Actions"],
     github: "https://github.com/brianrobt/aur-pkgbuilds",
-  },
-
-  {
-    title: "Portfolio Website",
-    description: "This website! A modern portfolio built with Next.js, featuring smooth animations, dark mode, and responsive design.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/brianrobt",
     live: "",
   },
 ];
@@ -214,7 +208,9 @@ export default function Projects() {
             <h3 className="text-2xl font-bold text-center mb-12">
               Other Noteworthy Projects
             </h3>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div
+              className={`grid gap-4 ${otherProjects.length === 2 ? "max-w-4xl mx-auto sm:grid-cols-2" : "sm:grid-cols-2 lg:grid-cols-3"}`}
+            >
               {otherProjects.map((project, index) => (
                 <OtherProject key={project.title} project={project} index={index} />
               ))}
