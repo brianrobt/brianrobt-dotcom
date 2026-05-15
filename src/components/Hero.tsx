@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-[var(--accent)]/10 via-transparent to-purple-500/10 pointer-events-none" />
-      
+
       {/* Animated background circles */}
       <motion.div
         animate={{
@@ -58,7 +58,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-5xl md:text-7xl font-bold mb-4 tracking-tight"
           >
-            Brian Thompson
+            Brian
           </motion.h1>
 
           <motion.h2
@@ -67,7 +67,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="text-3xl md:text-5xl font-bold text-[var(--muted)] mb-6"
           >
-            I craft AI-powered experiences.
+            Helping businesses grow through technology.
           </motion.h2>
 
           <motion.p
@@ -76,9 +76,11 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="text-[var(--muted)] text-lg md:text-xl max-w-2xl mx-auto mb-8"
           >
-            I&apos;m a software engineer specializing in building exceptional digital
-            experiences. Currently focused on creating accessible, human-centered
-            products powered by AI.
+            I&apos;m a software engineer who&apos;s been fascinated by computers since
+            childhood — and that curiosity still drives me. I believe great engineers
+            know far more than just code: networking, architecture, algorithms, and how
+            to communicate across technical and business boundaries. I don&apos;t claim
+            to be great, but I strive every day to be better than I was the day before.
           </motion.p>
 
           {/* Social Links */}
