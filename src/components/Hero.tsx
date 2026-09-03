@@ -49,7 +49,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-[var(--accent)] font-mono text-sm mb-4"
           >
-            Hi, my name is
+            Independent consulting
           </motion.p>
 
           <motion.h1
@@ -67,7 +67,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="text-3xl md:text-5xl font-bold text-[var(--muted)] mb-6"
           >
-            Helping businesses grow through technology.
+            AI, cloud, and custom software that ships.
           </motion.h2>
 
           <motion.p
@@ -76,11 +76,9 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="text-[var(--muted)] text-lg md:text-xl max-w-2xl mx-auto mb-8"
           >
-            I&apos;m a software engineer who&apos;s been fascinated by computers since
-            childhood — and that curiosity still drives me. I believe great engineers
-            know far more than just code: networking, architecture, algorithms, and how
-            to communicate across technical and business boundaries. I don&apos;t claim
-            to be great, but I strive every day to be better than I was the day before.
+            I help local businesses modernize their websites and software.
+            Fourteen years building production-grade systems. If you need a
+            reliable partner without hiring full-time, let&apos;s talk.
           </motion.p>
 
           {/* Social Links */}
@@ -125,16 +123,16 @@ export default function Hero() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <a
-              href="#projects"
+              href="#services"
               className="bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white px-8 py-3 rounded-lg font-medium transition-colors"
             >
-              View My Work
+              How I can help
             </a>
             <a
               href="#contact"
               className="border border-[var(--border)] hover:border-[var(--accent)] text-[var(--foreground)] px-8 py-3 rounded-lg font-medium transition-colors"
             >
-              Get in Touch
+              Start a conversation
             </a>
           </motion.div>
         </motion.div>
