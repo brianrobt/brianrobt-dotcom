@@ -16,7 +16,7 @@ const featuredProjects = [
   {
     title: "Client Business Website",
     description:
-      "A modern, responsive business website built for a client. Features a clean design, optimized performance, SEO best practices, and a custom CMS for easy content management.",
+      "A client business site: clean design, performance and SEO, and a CMS the owner can update without calling a developer every week.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     github: "",
     live: "https://stirupespresso.com",
@@ -182,7 +182,7 @@ export default function Projects() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="projects" className="py-32">
+    <section id="work" className="py-32">
       <div className="max-w-6xl mx-auto px-6">
         <motion.div
           ref={ref}
@@ -191,8 +191,8 @@ export default function Projects() {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4 flex items-center gap-4">
-            <span className="text-[var(--accent)] font-mono text-xl">03.</span>
-            Some Things I&apos;ve Built
+            <span className="text-[var(--accent)] font-mono text-xl">04.</span>
+            Selected work
             <span className="flex-1 h-px bg-[var(--border)] ml-4 hidden sm:block" />
           </h2>
 
@@ -206,7 +206,7 @@ export default function Projects() {
           {/* Other Projects */}
           <div className="mt-32">
             <h3 className="text-2xl font-bold text-center mb-12">
-              Other Noteworthy Projects
+              Open source
             </h3>
             <div
               className={`grid gap-4 ${otherProjects.length === 2 ? "max-w-4xl mx-auto sm:grid-cols-2" : "sm:grid-cols-2 lg:grid-cols-3"}`}

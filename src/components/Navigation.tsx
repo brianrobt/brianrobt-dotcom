@@ -6,9 +6,9 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { href: "#about", label: "About" },
-  { href: "#experience", label: "Experience" },
-  { href: "#projects", label: "Projects" },
-  { href: "#skills", label: "Skills" },
+  { href: "#services", label: "Services" },
+  { href: "#work", label: "Work" },
+  { href: "#reviews", label: "Reviews" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -60,7 +60,7 @@ export default function Navigation() {
               href="#contact"
               className="bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
             >
-              Get in Touch
+              Start a conversation
             </a>
           </li>
         </ul>
@@ -102,7 +102,7 @@ export default function Navigation() {
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="inline-block bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white px-4 py-2 rounded-lg font-medium transition-colors"
                 >
-                  Get in Touch
+                  Start a conversation
                 </a>
               </li>
             </ul>

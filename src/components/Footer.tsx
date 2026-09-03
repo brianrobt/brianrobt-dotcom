@@ -1,12 +1,15 @@
 "use client";
 
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const socialLinks = [
-  { href: "https://github.com", icon: Github, label: "GitHub" },
-  { href: "https://linkedin.com", icon: Linkedin, label: "LinkedIn" },
-  { href: "https://twitter.com", icon: Twitter, label: "Twitter" },
-  { href: "mailto:hello@example.com", icon: Mail, label: "Email" },
+  { href: "https://github.com/brianrobt", icon: Github, label: "GitHub" },
+  {
+    href: "https://www.linkedin.com/in/brian-r-thompson/",
+    icon: Linkedin,
+    label: "LinkedIn",
+  },
+  { href: "mailto:brianrobt@pm.me", icon: Mail, label: "Email" },
 ];
 
 export default function Footer() {
@@ -14,7 +17,6 @@ export default function Footer() {
     <footer className="py-12 border-t border-[var(--border)]">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          {/* Social Links */}
           <div className="flex items-center gap-6">
             {socialLinks.map((link) => {
               const Icon = link.icon;
@@ -33,14 +35,12 @@ export default function Footer() {
             })}
           </div>
 
-          {/* Copyright */}
           <div className="text-center md:text-right">
             <p className="text-[var(--muted)] text-sm">
-              Designed & Built with{" "}
-              <span className="text-red-500">♥</span>
+              Independent software consulting · St. Louis, MO
             </p>
             <p className="text-[var(--muted)] text-sm mt-1">
-              © {new Date().getFullYear()} Your Name. All rights reserved.
+              © {new Date().getFullYear()} Brian Thompson. All rights reserved.
             </p>
           </div>
         </div>

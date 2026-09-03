@@ -19,14 +19,13 @@ export default function Contact() {
           className="text-center"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-[var(--accent)] font-mono text-xl block mb-2">05.</span>
-            Get In Touch
+            <span className="text-[var(--accent)] font-mono text-xl block mb-2">06.</span>
+            Start a conversation
           </h2>
 
           <p className="text-[var(--muted)] text-lg max-w-2xl mx-auto mb-8">
-            Have a question, a project idea, or interested in working together?
-            I&apos;m always happy to connect and discuss how I can help. Feel free
-            to reach out!
+            Tell me what you&apos;re trying to ship. I&apos;ll reply with whether
+            I&apos;m a fit, a rough shape for the engagement, and next steps.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
@@ -44,7 +43,7 @@ export default function Contact() {
               className="inline-flex items-center gap-2 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white px-8 py-4 rounded-lg font-medium transition-colors text-lg"
             >
               <Mail size={20} />
-              Email Me
+              Email me
             </a>
 
             <div className="px-6 py-4 bg-[var(--card)] rounded-lg border border-[var(--border)]">

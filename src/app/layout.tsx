@@ -14,23 +14,22 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Brian Thompson | Software Engineer",
+  title: "Brian Thompson | Software Consulting",
   description:
-    "Software engineer specializing in building exceptional digital experiences. Portfolio showcasing projects in web development, AI, and full-stack applications.",
+    "Independent consulting for production AI, cloud platforms, and custom software. Based in St. Louis.",
   keywords: [
-    "Software Engineer",
-    "Web Developer",
-    "Full Stack",
-    "React",
-    "Next.js",
-    "TypeScript",
-    "AI",
+    "Software Consulting",
+    "AI Engineering",
+    "AWS",
+    "RAG",
+    "Cloud Infrastructure",
+    "St. Louis",
   ],
   authors: [{ name: "Brian Thompson" }],
   openGraph: {
-    title: "Brian Thompson | Software Engineer",
+    title: "Brian Thompson | Software Consulting",
     description:
-      "Software engineer specializing in building exceptional digital experiences.",
+      "Independent consulting for production AI, cloud platforms, and custom software.",
     type: "website",
   },
 };

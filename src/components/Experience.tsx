@@ -6,7 +6,7 @@ import { Briefcase, Calendar, MapPin } from "lucide-react";
 
 const experiences = [
   {
-    title: "Staff AI Engineer",
+    title: "Lead AI Developer",
     company: "SSM Health",
     location: "Remote",
     period: "Sep 2025 – Present",
@@ -204,7 +204,7 @@ export default function Experience() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section id="experience" className="py-32 bg-[var(--card)]/30">
+    <section id="experience" className="py-32">
       <div className="max-w-4xl mx-auto px-6">
         <motion.div
           ref={ref}
@@ -213,14 +213,14 @@ export default function Experience() {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4 flex items-center gap-4">
-            <span className="text-[var(--accent)] font-mono text-xl">02.</span>
-            Work Experience
+            <span className="text-[var(--accent)] font-mono text-xl">03.</span>
+            Background
             <span className="flex-1 h-px bg-[var(--border)] ml-4 hidden sm:block" />
           </h2>
 
           <p className="text-[var(--muted)] text-lg max-w-2xl mt-4 mb-12">
-            14+ years of experience across AI/ML, DevOps, and Site Reliability Engineering.
-            Click on any role to see more details.
+            The roles behind the consulting work: AI/ML, DevOps, and SRE.
+            Click a role for details.
           </p>
 
           <div className="relative">
