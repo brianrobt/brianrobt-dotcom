@@ -5,9 +5,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { href: "#about", label: "About" },
   { href: "#services", label: "Services" },
   { href: "#work", label: "Work" },
+  { href: "#about", label: "About" },
   { href: "#reviews", label: "Reviews" },
   { href: "#contact", label: "Contact" },
 ];
@@ -43,7 +43,6 @@ export default function Navigation() {
           Brian Thompson
         </a>
 
-        {/* Desktop Navigation */}
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <li key={link.href}>
@@ -60,12 +59,11 @@ export default function Navigation() {
               href="#contact"
               className="bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
             >
-              Start a conversation
+              Get a free site check
             </a>
           </li>
         </ul>
 
-        {/* Mobile Menu Button */}
         <button
           className="md:hidden p-2 text-[var(--muted)] hover:text-[var(--foreground)]"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -75,7 +73,6 @@ export default function Navigation() {
         </button>
       </nav>
 
-      {/* Mobile Menu */}
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
@@ -102,7 +99,7 @@ export default function Navigation() {
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="inline-block bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white px-4 py-2 rounded-lg font-medium transition-colors"
                 >
-                  Start a conversation
+                  Get a free site check
                 </a>
               </li>
             </ul>

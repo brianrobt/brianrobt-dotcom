@@ -56,7 +56,7 @@ export default function Reviews() {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4 flex items-center gap-4">
-            <span className="text-[var(--accent)] font-mono text-xl">05.</span>
+            <span className="text-[var(--accent)] font-mono text-xl">04.</span>
             Client reviews
             <span className="flex-1 h-px bg-[var(--border)] ml-4 hidden sm:block" />
           </h2>

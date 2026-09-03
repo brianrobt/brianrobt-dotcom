@@ -1,9 +1,8 @@
 "use client";
 
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 
 const socialLinks = [
-  { href: "https://github.com/brianrobt", icon: Github, label: "GitHub" },
   {
     href: "https://www.linkedin.com/in/brian-r-thompson/",
     icon: Linkedin,
@@ -37,10 +36,10 @@ export default function Footer() {
 
           <div className="text-center md:text-right">
             <p className="text-[var(--muted)] text-sm">
-              Independent software consulting · St. Louis, MO
+              Websites for Greater St. Louis small businesses
             </p>
             <p className="text-[var(--muted)] text-sm mt-1">
-              © {new Date().getFullYear()} Brian Thompson. All rights reserved.
+              © {new Date().getFullYear()} Brian Thompson
             </p>
           </div>
         </div>

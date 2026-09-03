@@ -14,22 +14,22 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Brian Thompson | Software Consulting",
+  title: "Websites that get St. Louis businesses found | Brian Thompson",
   description:
-    "Independent consulting for production AI, cloud platforms, and custom software. Based in St. Louis.",
+    "I help Greater St. Louis small businesses get more calls and booked jobs. A clear website, Google Business Profile, and local search, set up once, kept current.",
   keywords: [
-    "Software Consulting",
-    "AI Engineering",
-    "AWS",
-    "RAG",
-    "Cloud Infrastructure",
-    "St. Louis",
+    "St. Louis website",
+    "small business website",
+    "Google Business Profile",
+    "local SEO",
+    "Greater St. Louis",
+    "Brian Thompson",
   ],
   authors: [{ name: "Brian Thompson" }],
   openGraph: {
-    title: "Brian Thompson | Software Consulting",
+    title: "Websites that get St. Louis businesses found | Brian Thompson",
     description:
-      "Independent consulting for production AI, cloud platforms, and custom software.",
+      "I help Greater St. Louis small businesses get more calls and booked jobs. A clear website, Google Business Profile, and local search, set up once, kept current.",
     type: "website",
   },
 };

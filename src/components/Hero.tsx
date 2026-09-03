@@ -1,15 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Linkedin, Mail } from "lucide-react";
 
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-[var(--accent)]/10 via-transparent to-purple-500/10 pointer-events-none" />
 
-      {/* Animated background circles */}
       <motion.div
         animate={{
           scale: [1, 1.2, 1],
@@ -49,54 +47,34 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-[var(--accent)] font-mono text-sm mb-4"
           >
-            Independent consulting
+            Greater St. Louis
           </motion.p>
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-5xl md:text-7xl font-bold mb-4 tracking-tight"
+            className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 tracking-tight"
           >
-            Brian
+            Get found. Get booked. Stay visible.
           </motion.h1>
-
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-3xl md:text-5xl font-bold text-[var(--muted)] mb-6"
-          >
-            AI, cloud, and custom software that ships.
-          </motion.h2>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
             className="text-[var(--muted)] text-lg md:text-xl max-w-2xl mx-auto mb-8"
           >
-            I help local businesses modernize their websites and software.
-            Fourteen years building production-grade systems. If you need a
-            reliable partner without hiring full-time, let&apos;s talk.
+            I build and look after websites for local small businesses, so
+            people can find you, call you, and hire you.
           </motion.p>
 
-          {/* Social Links */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.5 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
             className="flex items-center justify-center gap-6 mb-12"
           >
-            <a
-              href="https://github.com/brianrobt"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[var(--muted)] hover:text-[var(--accent)] transition-colors"
-              aria-label="GitHub"
-            >
-              <Github size={24} />
-            </a>
             <a
               href="https://www.linkedin.com/in/brian-r-thompson/"
               target="_blank"
@@ -115,29 +93,27 @@ export default function Hero() {
             </a>
           </motion.div>
 
-          {/* CTA Buttons */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.6 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <a
-              href="#services"
+              href="#contact"
               className="bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white px-8 py-3 rounded-lg font-medium transition-colors"
             >
-              How I can help
+              Get a free site check
             </a>
             <a
-              href="#contact"
+              href="#services"
               className="border border-[var(--border)] hover:border-[var(--accent)] text-[var(--foreground)] px-8 py-3 rounded-lg font-medium transition-colors"
             >
-              Start a conversation
+              See what&apos;s included
             </a>
           </motion.div>
         </motion.div>
 
-        {/* Scroll indicator */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -145,7 +121,7 @@ export default function Hero() {
           className="absolute bottom-8 left-1/2 -translate-x-1/2"
         >
           <motion.a
-            href="#about"
+            href="#services"
             animate={{ y: [0, 8, 0] }}
             transition={{ duration: 1.5, repeat: Infinity }}
             className="text-[var(--muted)] hover:text-[var(--accent)] transition-colors"
