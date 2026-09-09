@@ -14,6 +14,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.brianrobt.com"),
   title: "Websites that get St. Louis businesses found | Brian Thompson",
   description:
     "I help Greater St. Louis small businesses get more calls and booked jobs. A clear website, Google Business Profile, and local search, set up once, kept current.",
