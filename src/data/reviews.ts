@@ -8,6 +8,6 @@ export type PublishedReview = {
 
 /**
  * Approved client reviews shown on the site.
- * Submissions from the form are emailed for moderation. Add them here after you OK them.
+ * Collect via email, then add entries here when you want them public.
  */
 export const publishedReviews: PublishedReview[] = [];
