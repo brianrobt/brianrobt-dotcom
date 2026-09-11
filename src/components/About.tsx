@@ -26,10 +26,10 @@ export default function About() {
           <div className="grid md:grid-cols-3 gap-12 mt-12">
             <div className="md:col-span-2 space-y-4">
               <p className="text-[var(--muted)] text-lg leading-relaxed">
-                I&apos;m Brian: husband, dad of two, based in St. Louis. I spent
-                14 years building systems at Mastercard and SSM Health. I started
-                this so owners around here can get a site that actually brings in
-                work, without hiring a full-time tech person.
+                Hi, my name is Brian. I'm a husband, dad of two beautiful girls, and based in St. Louis.
+                I've spent over 14 years building systems at Mastercard and SSM Health. I started
+                this so local business owners can get a site that actually brings in
+                customers without hiring a full-time tech person.
               </p>
             </div>
 
