@@ -26,9 +26,9 @@ export default function Reviews() {
             <span className="flex-1 h-px bg-[var(--border)] ml-4 hidden sm:block" />
           </h2>
           <p className="text-[var(--muted)] text-lg max-w-2xl mt-4 mb-12">
-            A few notes from people I&apos;ve worked with. If we&apos;ve done a
+            Here are a few notes from people I&apos;ve worked with. If we&apos;ve done a
             project together and you&apos;d like to add one, email me and I&apos;ll
-            post it here after a quick look.
+            post it here after looking it over.
           </p>
 
           {publishedReviews.length > 0 ? (
