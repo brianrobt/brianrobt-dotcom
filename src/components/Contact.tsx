@@ -37,7 +37,7 @@ export default function Contact() {
               {"// Current status"}
             </p>
             <p className="text-[var(--foreground)]">
-              Currently not accepting new clients. Email me anyway and I&apos;ll let you know when I have an opening.
+              Currently not accepting new clients.
             </p>
           </div>
 
